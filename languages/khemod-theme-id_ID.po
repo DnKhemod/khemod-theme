@@ -1,0 +1,314 @@
+# translators: Theme name for Khemod Theme
+msgid ""
+msgstr ""
+"Project-Id-Version: Khemod Theme 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-13\n"
+"PO-Revision-Date: 2026-11-13\n"
+"Last-Translator: Melly Anjasari <melly@sehatalakhemod.com>\n"
+"Language-Team: Indonesian <id_ID@lipsum.com>\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Country: ID\n"
+"X-Poedit-KeywordsList: _;__;_e;_ex;_n:gettext;;esc_html__;esc_attr__;esc_html_e;esc_attr_e;_x:1,2c:2;_nx:1,2d:2;__ngettext:no-tests:\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPathTopDirectories: . ..\n"
+"X-Poedit-SearchPath: .\n"
+
+# Theme general
+msgctxt "Theme Name"
+msgid "Khemod Theme"
+msgstr "Tema Khemod"
+
+msgctxt "Theme URI"
+msgid "https://www.sehatalakhemod.com"
+msgstr "https://www.sehatalakhemod.com"
+
+msgctxt "Author"
+msgid "Melly Anjasari"
+msgstr "Melly Anjasari"
+
+msgctxt "Author URI"
+msgid "https://www.sehatalakhemod.com"
+msgstr "https://www.sehatalakhemod.com"
+
+msgctxt "Description"
+msgid "Custom WordPress Theme untuk Kedai Teh Sehat ala Khemod. Tema minimalis dengan nuansa earthy dan natural."
+msgstr "Tema WordPress kustom untuk Kedai Teh Sehat ala Khemod. Tema minimalis dengan nuansa earthy dan natural."
+
+msgctxt "Version"
+msgid "1.0.0"
+msgstr "1.0.0"
+
+msgctxt "Requires at least"
+msgid "6.0"
+msgstr "6.0"
+
+# WordPress requirements
+msgctxt "Requires at least"
+msgid "6.0"
+msgstr "6.0"
+
+msgctxt "Tested up to"
+msgid "6.6"
+msgstr "6.6"
+
+# License
+msgctxt "License"
+msgid "GNU General Public License v2 or later"
+msgstr "Lisensi GNU General Public License v2 atau lebih baru"
+
+msgctxt "License URI"
+msgid "http://www.gnu.org/licenses/gpl-2.0.html"
+msgstr "http://www.gnu.org/licenses/gpl-2.0.html"
+
+msgctxt "Text Domain"
+msgid "khemod-theme"
+msgstr "khemod-theme"
+
+msgctxt "Tags"
+msgid "custom-theme, tea, herbal, minimalist, earthy, wpcs"
+msgstr "custom-theme, tea, herbal, minimalist, earthy, wpcs"
+
+# Theme setup
+msgctxt "Primary Menu"
+msgid "Primary Menu"
+msgstr "Menu Utama"
+
+msgctxt "Make theme available for translation."
+msgid "Make theme available for translation."
+msgstr "Buat tema tersedia untuk penerjemahan."
+
+msgctxt "Add default posts and comments RSS feed links to head."
+msgid "Add default posts and comments RSS feed links to head."
+msgstr "Tambahkan tautan feed RSS default posting dan komentar ke head."
+
+msgctxt "Let WordPress manage the document title."
+msgid "Let WordPress manage the document title."
+msgstr "Biarkan WordPress mengelola judul dokumen."
+
+msgctxt "Enable support for Post Thumbnails on posts and pages."
+msgid "Enable support for Post Thumbnails on posts and pages."
+msgstr "Aktifkan dukungan untuk Post Thumbnails di posting dan halaman."
+
+msgctxt "Enable support for custom logo."
+msgid "Enable support for custom logo."
+msgstr "Aktifkan dukungan untuk logo kustom."
+
+msgctxt "Register navigation menus."
+msgid "Register navigation menus."
+msgstr "Daftarkan menu navigasi."
+
+# Custom Post Type: Produk
+msgctxt "Post Type General Name"
+msgid "Katalog Produk"
+msgstr "Katalog Produk"
+
+msgctxt "Post Type Singular Name"
+msgid "Produk Teh"
+msgstr "Produk Teh"
+
+msgctxt "Add New"
+msgid "Tambah Produk"
+msgstr "Tambah Produk"
+
+msgctxt "Add New Item"
+msgid "Tambah Produk Baru"
+msgstr "Tambah Produk Baru"
+
+msgctxt "Edit Item"
+msgid "Edit Produk"
+msgstr "Edit Produk"
+
+msgctxt "View Item"
+msgid "Lihat Produk"
+msgstr "Lihat Produk"
+
+msgctxt "All Items"
+msgid "Semua Produk"
+msgstr "Semua Produk"
+
+msgctxt "Search Items"
+msgid "Cari Produk"
+msgstr "Cari Produk"
+
+msgctxt "Not Found"
+msgid "Tidak ada produk ditemukan."
+msgstr "Tidak ada produk ditemukan."
+
+msgctxt "Not Found in Trash"
+msgid "Tidak ada produk di trash."
+msgstr "Tidak ada produk di trash."
+
+# Meta Box
+msgctxt "Detail Produk"
+msgid "Detail Produk"
+
+# Page templates
+msgctxt "Template Name: Lokasi & Kontak"
+msgid "Lokasi & Kontak"
+msgstr "Lokasi & Kontak"
+
+msgctxt "Template Name: Tentang Kami"
+msgid "Tentang Kami"
+msgstr "Tentang Kami"
+
+msgctxt "Kunjungi Kedai Kami"
+msgid "Kunjungi Kedai Kami"
+msgstr "Kunjungi Kedai Kami"
+
+msgctxt "Alamat"
+msgid "Alamat"
+msgstr "Alamat"
+
+msgctxt "Jln. Sucimanah no 19, RT 01 / RW 06, Kel. Jagasatru, Kec. Pekalipan, Cirebon, Jawa Barat"
+msgid "Jln. Sucimanah no 19, RT 01 / RW 06, Kel. Jagasatru, Kec. Pekalipan, Cirebon, Jawa Barat"
+msgstr "Jln. Sucimanah no 19, RT 01 / RW 06, Kel. Jagasatru, Kec. Pekalipan, Cirebon, Jawa Barat"
+
+msgctxt "Jam Operasional"
+msgid "Jam Operasional"
+msgstr "Jam Operasional"
+
+msgctxt "Senin – Sabtu: 09:00 s/d 23:00"
+msgid "Senin – Sabtu: 09:00 s/d 23:00"
+msgstr "Senin – Sabtu: 09:00 s/d 23:00"
+
+msgctxt "Minggu: 10:00 s/d 22:00"
+msgid "Minggu: 10:00 s/d 22:00"
+msgstr "Minggu: 10:00 s/d 22:00"
+
+msgctxt "Kontak"
+msgid "Kontak"
+msgstr "Kontak"
+
+msgctxt "0812-2436-4080"
+msgid "0812-2436-4080"
+msgstr "0812-2436-4080"
+
+msgctxt "Peta Lokasi Kedai Teh Sehat ala Khemod"
+msgid "Peta Lokasi Kedai Teh Sehat ala Khemod"
+msgstr "Peta Lokasi Kedai Teh Sehat ala Khemod"
+
+msgctxt "Tentang Kami"
+msgid "Tentang Kami"
+msgstr "Tentang Kami"
+
+
+# Front page
+msgctxt "Kehangatan Rempah Alami untuk Tubuhkan Dengan Lebih Sehat, Ka."
+msgid "Kehangatan Rempah Alami untuk Tubuhkan Dengan Lebih Sehat, Ka."
+msgstr "Kehangatan Rempah Alami untuk Tubuhkan Dengan Lebih Sehat, Ka."
+
+msgctxt "Nikmati Perpaduan Teh Pilihan dan Rempah Tradisional yang Dikemas Secara Modern."
+msgid "Nikmati Perpaduan Teh Pilihan dan Rempah Tradisional yang Dikemas Secara Modern."
+msgstr "Nikmati Perpaduan Teh Pilihan dan Rempah Tradisional yang Dikemas Secara Modern."
+
+msgctxt "Sekilas Tentang Kami"
+msgid "Sekilas Tentang Kami"
+msgstr "Sekilas Tentang Kami"
+
+msgctxt "Sejak 2023, Kedai Teh Sehat ala Khemod berkomitmen menyajikan minuman herbal yang menenangkan, sehat, dan terpercaya untuk menemani hari-hari Anda."
+msgid "Sejak 2023, Kedai Teh Sehat ala Khemod berkomitmen menyajikan minuman herbal yang menenangkan, sehat, dan terpercaya untuk menemani hari-hari Anda."
+msgstr "Sejak 2023, Kedai Teh Sehat ala Khemod berkomitmen menyajikan minuman herbal yang menenangkan, sehat, dan terpercaya untuk menemani hari-hari Anda."
+
+msgctxt "Produk Unggulan Kami"
+msgid "Produk Unggulan Kami"
+msgstr "Produk Unggulan Kami"
+
+msgctxt "Belum ada produk unggulan yang ditampilkan."
+msgid "Belum ada produk unggulan yang ditampilkan."
+msgstr "Belum ada produk unggulan yang ditampilkan."
+
+msgctxt "Lihat Semua Produk"
+msgid "Lihat Semua Produk"
+msgstr "Lihat Semua Produk"
+
+msgctxt "Mampir dan Nikmati Secangkir Kehangatan, Ka!"
+msgid "Mampir dan Nikmati Secangkir Kehangatan, Ka!"
+msgstr "Mampir dan Nikmati Secangkir Kehangatan, Ka!"
+
+msgctxt "Temukan Lokasi Kami"
+msgid "Temukan Lokasi Kami"
+msgstr "Temukan Lokasi Kami"
+
+# Single produk
+msgctxt "Kandungan Rempah:"
+msgid "Kandungan Rempah:"
+msgstr "Kandungan Rempah:"
+
+msgctxt "Harga:"
+msgid "Harga:"
+msgstr "Harga:"
+
+msgctxt "Kembali ke Katalog"
+msgid "Kembali ke Katalog"
+msgstr "Kembali ke Katalog"
+
+# Archive produk
+msgctxt "Katalog Produk"
+msgid "Katalog Produk"
+msgstr "Katalog Produk"
+
+msgctxt "Nikmati Kehangatan Rempah Alami dalam Setiap Cangkir Teh Kami."
+msgid "Nikmati Kehangatan Rempah Alami dalam Setiap Cangkir Teh Kami."
+msgstr "Nikmati Kehangatan Rempah Alami dalam Setiap Cangkir Teh Kami."
+
+msgctxt "Belum ada produk yang tersedia."
+msgid "Belum ada produk yang tersedia."
+msgstr "Belum ada produk yang tersedia."
+
+msgstr "Detail Produk"
+
+msgctxt "Harga:"
+msgid "Harga:"
+msgstr "Harga:"
+
+msgctxt "Kandungan Rempah:"
+msgid "Kandungan Rempah:"
+msgstr "Kandungan Rempah:"
+
+msgctxt "Example: Rp 15.000"
+msgid "Contoh: Rp 15.000"
+msgstr "Contoh: Rp 15.000"
+
+msgctxt "Example: Jahe, Serai, Cengkeh, Kayu Manis"
+msgid "Contoh: Jahe, Serai, Cengkeh, Kayu Manis"
+msgstr "Contoh: Jahe, Serai, Cengkeh, Kayu Manis"
+
+
+msgctxt "Switch default core markup to output valid HTML5."
+msgid "Switch default core markup to output valid HTML5."
+msgstr "Ubah markup inti default ke output HTML5 yang valid."
+
+msgctxt "Add theme support for selective refresh for widgets."
+msgid "Add theme support for selective refresh for widgets."
+msgstr "Tambahkan dukungan tema untuk selective refresh untuk widget."
+
+
+msgctxt "Tested up to"
+msgid "6.6"
+msgstr "6.6"
+
+msgctxt "Requires PHP"
+msgid "8.1"
+msgstr "8.1"
+
+msgctxt "License"
+msgid "GNU General Public License v2 or later"
+msgstr "Lisensi GNU General Public License v2 atau lebih baru"
+
+msgctxt "License URI"
+msgid "http://www.gnu.org/licenses/gpl-2.0.html"
+msgstr "http://www.gnu.org/licenses/gpl-2.0.html"
+
+msgctxt "Text Domain"
+msgid "khemod-theme"
+msgstr "khemod-theme"
+
+msgctxt "Tags"
+msgid "custom-theme, tea, herbal, minimalist, earthy, wpcs"
+msgstr "custom-theme, tea, herbal, minimalist, earthy, wpcs"
