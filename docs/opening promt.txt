@@ -1,0 +1,5 @@
+Mulai proyek baru menggunakan PRD Studio.
+
+Jalankan tahap Project Setup, kemudian Business Discovery dan Website Discovery secara bertahap.
+
+Gunakan standar DOCUMENT-STANDARD.md. Ajukan satu pertanyaan setiap giliran. Jangan membuat dokumen sebelum discovery selesai dan disetujui.

@@ -1,0 +1,166 @@
+# ============================================================
+# General
+# ============================================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+
+# Local editor / OS files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+.idea/
+.history/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+auth.json
+
+# ============================================================
+# Node.js / Next.js / React / Payload / frontend tooling
+# ============================================================
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+.npm/
+.pnpm-store/
+
+.next/
+out/
+dist/
+build/
+coverage/
+.turbo/
+.vercel/
+.netlify/
+*.tsbuildinfo
+
+# Package manager / tooling caches
+.eslintcache
+.stylelintcache
+.parcel-cache/
+.vite/
+.storybook-out/
+
+# Payload generated files (review project-specific generated paths)
+.payload/
+# Keep generated type definitions if your project tracks them.
+# Do not ignore `src/payload-types.ts` by default.
+
+# ============================================================
+# PHP / Composer
+# ============================================================
+/vendor/
+composer.phar
+.phpunit.cache/
+.phpunit.result.cache
+.php-cs-fixer.cache
+.phpcs-cache
+.phpstan/
+.phpunit-watcher.yml
+
+# ============================================================
+# WordPress
+# ============================================================
+# Ignore a full local WordPress installation when this repository
+# is intended to contain only custom theme/plugin source code.
+/wordpress/
+/wp/
+/public_html/
+/htdocs/
+
+# WordPress local configuration and runtime content
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup*
+wp-content/cache/
+wp-content/ai1wm-backups/
+wp-content/wflogs/
+wp-content/debug.log
+
+# If this repository is a complete WordPress installation and intentionally
+# versions selected plugins/themes, revise the rules above before use.
+# Do not blindly ignore wp-content/themes or wp-content/plugins.
+
+# ============================================================
+# Python (optional tooling/scripts)
+# ============================================================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ============================================================
+# Databases, dumps, backups, and local runtime files
+# ============================================================
+*.sql
+*.sql.gz
+*.dump
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.backup
+/backups/
+/dumps/
+
+# ============================================================
+# Logs and runtime
+# ============================================================
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# ============================================================
+# Testing / browser automation
+# ============================================================
+playwright-report/
+test-results/
+.nyc_output/
+cypress/videos/
+cypress/screenshots/
+
+# ============================================================
+# Deployment / hosting local state
+# ============================================================
+.terraform/
+.serverless/
+.aws-sam/
+.deploy/
+
+# ============================================================
+# OS / temporary exports
+# ============================================================
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar

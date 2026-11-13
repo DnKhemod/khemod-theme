@@ -1,0 +1,92 @@
+# .clinerules
+
+# Cline project rules
+# Keep this file aligned with AGENTS.md. AGENTS.md is the detailed, tool-agnostic
+# engineering standard; this file is the concise Cline-specific entry point.
+
+## 1. Read Before Acting
+- Inspect the repository structure and run `git status --short` before editing.
+- Read the relevant project documents in `docs/` and applicable local instructions.
+- Treat approved BRIEF/PRD/SITEMAP/DESIGN/DATABASE/ARCHITECTURE documents as project requirements.
+- Inspect package/config files before assuming frameworks, versions, scripts, or dependencies.
+- Do not invent missing requirements. Ask one focused question when a risky ambiguity blocks progress.
+
+## 2. Plan and Scope
+- Restate the task briefly and identify acceptance criteria and affected files.
+- For multi-file, architectural, destructive, or high-risk work, present a plan and wait for approval.
+- Keep changes small, focused, and consistent with existing patterns.
+- Do not code when the user asks only for analysis, review, or planning.
+- Do not deploy, run production migrations, delete data, or perform external actions without explicit authorization.
+
+## 3. Engineering Quality
+- Apply KISS, DRY, YAGNI, separation of concerns, and single responsibility pragmatically.
+- Follow the repository's formatter, linter, naming, folder structure, and language/framework conventions.
+- Avoid unnecessary dependencies, premature abstractions, duplicated logic, dead code, debug statements, and unexplained TODOs.
+- Do not reformat or modify unrelated files.
+- Do not claim a mockup or static sample is a completed integration.
+
+## 4. Security
+- Validate input on the server; sanitize and escape output for its context.
+- Use parameterized database queries.
+- Enforce authentication, authorization, and least privilege on sensitive operations.
+- Protect state-changing actions against CSRF using the framework's mechanisms.
+- Validate uploads (type, size, extension, destination).
+- Never commit secrets, credentials, private keys, tokens, or real personal data.
+- Do not expose stack traces or internal details to end users.
+- Do not weaken security controls to make tests pass.
+
+## 5. WordPress Rules (only when this repository uses WordPress)
+- Follow WordPress Coding Standards (WPCS) and the project's supported PHP/WordPress versions.
+- Use capability checks for authorization; use nonces for intent verification, not as a replacement for authorization.
+- Sanitize input, validate values, and escape output contextually (`esc_html`, `esc_attr`, `esc_url`, `wp_kses_post`).
+- Use `$wpdb->prepare()` for dynamic SQL.
+- Prefer WordPress APIs for options, metadata, media, REST, AJAX, enqueueing, and internationalization.
+- Keep business logic that must survive theme changes in a plugin rather than a theme.
+- Never edit WordPress core or third-party vendor files directly.
+- Secure admin pages, REST endpoints, AJAX handlers, and forms.
+
+## 6. Next.js / Node.js Rules (only when this repository uses this stack)
+- Follow the locked versions and package manager in the repository.
+- Use Server Components by default where appropriate; add `"use client"` only when needed.
+- Validate untrusted data at server/API boundaries.
+- Never expose secrets through `NEXT_PUBLIC_` environment variables.
+- Enforce authorization on the server for sensitive data operations.
+- Follow the project's established routing, data-fetching, caching, and error-handling patterns.
+
+## 7. UI and Accessibility
+- Follow approved design files and `DESIGN.md`; do not change visual decisions unilaterally.
+- Build reusable components only for genuinely repeated patterns.
+- Support the documented responsive breakpoints.
+- Use semantic HTML, keyboard-accessible controls, visible focus, appropriate labels, and sufficient contrast.
+- Include loading, empty, success, and error states where relevant.
+- Do not ship placeholder content or dummy data as real content.
+
+## 8. Database and Documentation
+- Read `DATABASE.md` and `ARCHITECTURE.md` before related changes, if present.
+- Plan schema changes and migrations; never alter production data without explicit approval.
+- Update documentation when behavior, setup, API, schema, architecture, or deployment changes.
+- Do not change the PRD to retroactively justify an implementation deviation.
+
+## 9. Testing
+- Discover available scripts before running commands.
+- Run relevant syntax/type checks, lint, tests, build, and targeted browser/manual checks.
+- Report exactly what ran and its actual result.
+- If a check could not run, say so. Never fabricate passing results.
+- Do not remove or weaken tests merely to get a green result.
+
+## 10. Git Safety
+- Preserve all pre-existing user changes.
+- Never run `git reset --hard`, `git clean -fd`, force push, or destructive history operations without explicit approval.
+- Review `git diff` before reporting completion.
+- Do not commit unless requested or explicitly allowed by the project workflow.
+- Keep secrets, local environment files, dumps, and build artifacts out of commits.
+
+## 11. Completion Report
+After each task, report:
+- What changed.
+- Files created/modified/deleted.
+- Checks run and actual results.
+- Remaining risks or incomplete work.
+- The single most relevant next step.
+
+Never claim work is complete, secure, or production-ready without supporting verification.
